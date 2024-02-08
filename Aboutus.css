@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: max-content;
+}
+body{
+    background-color:gray;
+    
+    font-family: "Baloo 2", cursive;
+}
+
+div.FirstCont{
+    /* display: block; */
+    border: 2px solid black;
+     width: 100%;
+    height: 670px;
+   background: url("firstdiv\ img.jpg") no-repeat center center/cover ;
+    color: white;
+    text-align: center;
+    align-content: center;
+
+}
+
+.content{
+    border: 2px solid gray;
+    
+    width: 640px;
+    padding: 40px 40px;
+    margin: 90px 110px;
+    border-radius: 50px;
+    background-color: rgba(0, 0,0, 0.5);
+}
+
+.seccont{
+
+height: 300px;
+}
+div.picside{
+border: 2px solid gray;
+
+height: 100%;
+
+}
+
+.picside{
+    width: 500px;
+    border-bottom-right-radius: 115px;
+    border-top-right-radius: 115px;
+   opacity: 0.7;
+   display: inline-block;
+    background: url("tyre-flipping-2141109.jpg") no-repeat center center/cover ;
+    
+
+}
+
+.picside:hover{
+    cursor: pointer;
+    opacity: 10;
+}
+ 
+
+.seccont{
+   display: flex;
+    width: 100%;
+    height: 350px;
+    background-color: rgba(0, 0,0, 0.9);
+    justify-content: space-between;
+    
+}
+
+.text {
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  width: 800px; 
+  height: 100%;
+  font-weight: bold;}
+
+li{
+    display: block;
+    padding: 20px;
+}

@@ -1,0 +1,154 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0;
+    font-family: "Baloo 2", cursive;
+    color: white;
+    background: url("bg.jpg") no-repeat center center/cover ;
+  
+  }
+  
+  
+  .header {
+    font-weight: bold;
+    
+  }
+  
+  .left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    line-height: 0;
+    display: inline-block;
+    top: 5;
+    width: 140px;
+  }
+  .logotext{
+    text-align: center;
+    margin-right: 25px;
+  }
+  .left div {
+    line-height: 15px;
+    font-size: 16px;
+  }
+  .left img {
+    filter: invert(100%);
+    width: 40px;
+    padding-left: 38px;
+    top: 0;
+  }
+  
+  .btn {
+    font-family: "Baloo 2", cursive;
+    color: white;
+    background-color: black;
+    border: 2px solid #808080;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+    
+  }
+  
+  .btn:hover {
+    background-color: rgb(100, 100, 100);
+  }
+  
+  .mid {
+    
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    margin-top: 30px;
+    text-align: center;
+    /* border: 2px solid rgb(196, 157, 157); */
+  }
+  
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid rgb(87, 19, 19); */
+  }
+  
+  ul{
+    list-style: none;
+  }
+  ul li{
+    display: inline-block;
+  }
+  
+  .navbar a {
+  
+    padding: 30px 30px;
+    text-decoration: none;
+  
+    color: white;
+  }
+  .navbar a:hover {
+    color: #808080;
+  }
+  
+  .container {
+    /* border: 2px solid white; */
+    align-content: center;
+    border-radius: 50px;
+    margin: 50px 40px;
+    padding: 50px 50px;
+    width: 35%;
+    background-color:rgba(0,0, 0, 0.8)
+    
+  }
+  
+  .form-group input {
+    font-family: "Baloo 2", cursive;
+    text-align: center;
+    display: block;
+    width: 380px;
+    padding: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 3px auto;
+    font-size: 20px;
+  }
+  
+  .container h1 {
+    text-align: center;
+  }
+  .container .btn {
+    display: block;
+    width: 380px;
+    margin: 10px auto;
+  }
+  
+  .vl{
+  
+    border-left: 4px solid gray;
+    height: 46px;
+    position: absolute;
+    left: 150%;
+    top: 0;
+    opacity: 20%;
+    /* margin-left: -3; */
+  
+  
+  }
+  
+  hr{
+  border-top: 2px solid gray;
+  opacity: 20%;
+  border-radius: 5px;
+  }
+  
+  .hearde.left.logotext{
+    margin-top: 36px;
+  }
+  
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
